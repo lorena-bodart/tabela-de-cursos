@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cursos Front End </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tabela de Cursos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body>
+
+       <table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Nome do Curso</th>
+      <th scope="col">Carga Horária</th>
+      <th scope="col">Inscreva-se</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <h1>
+      Aprenda a desenvolver sites e aplicativos com HTML, CSS, JavaScript e muito mais. <br>
+      <br>
+      Venha para o mundo Front End! <br>
+    </h1>
+    <tr>
+      <td>HTML5 e CSS3 completo</td>
+      <td>120h</td>
+      <td>
+        <input type="checkbox" id= "curso1" name="curso" value="120" onclick="adicionaCurso(this)">
+      </td>
+    </tr>
+    <tr>
+      <td>Bootstrap 4</td>
+      <td>120h </td>
+      <td><input type="checkbox" id= "curso2" name="curso" value="120" onclick="adicionaCurso(this)">
+      </td>
+    </tr>
+    <tr>
+      <td>Acessibilidade Web</td>
+      <td>40h</td>
+      <td><input type="checkbox" id= "curso3" name="curso" value="40" onclick="adicionaCurso(this)">
+      </td>
+      </tr>
+      <tr>
+      <td>Java Script Completo</td>
+      <td>100h</td>
+      <td><input type="checkbox" id= "curso4" name="curso" value="100" onclick="adicionaCurso(this)">
+      </td>
+      </tr>
+      <tr>
+      <td>Angular</td>
+      <td>115h</td>
+      <td><input type="checkbox" id= "curso5" name="curso" value="115" onclick="adicionaCurso(this)">
+      </td>
+      </tr>
+      <tr>
+      <td>JQuery</td>
+      <td>24h</td>
+      <td><input type="checkbox" id= "curso6" name="curso" value="24" onclick="adicionaCurso(this)">
+      </td>
+      </tr>
+      <tr>
+      <td>React</td>
+      <td>50h</td>
+      <td><input type="checkbox" id= "curso7" name="curso7" value="50"onclick="adicionaCurso(this)" >
+      </td>
+      </tr>
+      <tr>
+      <td>Total</td>
+      <td id="somaHoras" >0h</td>
+      <td id="somaQuantidade"  >0 Cursos</td>
+      </tr>
+
+  </tbody>
+</table>
+<div class="botao">
+<button type="button" class="btn btn-dark" id = "botao">Matricule-se</button>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

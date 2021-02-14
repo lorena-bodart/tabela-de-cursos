@@ -1,0 +1,22 @@
+body {background-color: lightpink}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 100px;
+  font-family: open sans, sans-serif;
+  margin: 0px 30px;
+  
+}
+
+
+.table{
+  width: 80%;
+  margin: auto;
+}
+
+.botao{
+  text-align:center;
+  margin: 10px 50px;
+  
+}
